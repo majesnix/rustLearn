@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "control_flow"
+    },
+    {
+      "path": "data_types"
+    },
+    {
+      "path": "guessing_game"
+    },
+    {
+      "path": "variables"
+    },
+    {
+      "path": "functions"
+    },
+    {
+      "path": "ownership"
+    },
+    {
+      "path": "structs"
+    }
+  ]
+}
