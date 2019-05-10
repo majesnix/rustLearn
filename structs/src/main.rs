@@ -17,6 +17,10 @@ impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
     }
+
+    fn square(size: u32) -> Rectangle {
+        Rectangle { width: size, height: size }
+    }
 }
 
 // create a user with the given email and username
@@ -57,6 +61,10 @@ fn main() {
 
     println!("rect1 is {:#?}", rect1);
 
+    let test = "test";
+
+    println!("test: {}", test);
+
 // {} get replaced with the variable output at the end
     println!(
         "The area of the rectangle is {} square pixels.",
@@ -66,5 +74,10 @@ fn main() {
     println!(
         "Area calculated through a method: {}",
         rect1.area()
-    )
+    );
+
+    println!(
+        "Square: {}",
+        Rectangle::square(32).area()
+    );
 }
